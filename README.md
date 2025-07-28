@@ -74,7 +74,7 @@ typedef struct Account {
 
 ```bash
 # 编译程序
-gcc codedemo.cpp -o account_manager
+gcc User_Privary_messages_management_system.cpp -o account_manager
 
 # 运行程序
 ./account_manager
