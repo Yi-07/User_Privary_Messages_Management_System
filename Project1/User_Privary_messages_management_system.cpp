@@ -18,13 +18,13 @@ Account* head = NULL;
 
 // 密码验证功能模块
 void passwordCheck() {
-    char password[20];
+    char password[10];
     int attempts = 0;
     const char* correctPassword = "123456";
     printf("欢迎使用用户隐私信息管理系统！\n");
     while (attempts < 3) {
         printf("请输入管理员密码: ");
-        scanf("%s", password);
+        scanf("%9s", password);
         if (strcmp(password, correctPassword) == 0) {
             printf("密码正确！\n");
             return;
